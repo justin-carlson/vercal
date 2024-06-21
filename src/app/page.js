@@ -3,111 +3,29 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.37 95.47">
+        <polyline points="118.8 31 118.8 23.99 106.77 23.99 106.77 48.51"
+            style={{ fill: 'none', stroke: '#959595', strokeMiterlimit: 10, strokeWidth: '0.5px' }} />
+        <polyline points="106.77 67.19 106.77 78.3 118.8 78.3 118.8 49.67"
+            style={{ fill: 'none', stroke: '#959595', strokeMiterlimit: 10, strokeWidth: '0.5px' }} />
+        <path
+            d="M383.11,399.2a14.87,14.87,0,0,0-1.46-6.88,13.83,13.83,0,0,0-4-4.84,17.91,17.91,0,0,0-6-2.88,27,27,0,0,0-7.22-1h-7.1v32h6.18a34.12,34.12,0,0,0,7.76-.84,16.7,16.7,0,0,0,6.21-2.78,13.36,13.36,0,0,0,4.14-5.1A17.85,17.85,0,0,0,383.11,399.2Z"
+            transform="translate(-217.51 -348.52)"
+            style={{ fill: 'none', stroke: '#959595', strokeMiterlimit: 10, strokeWidth: '0.5px' }} />
+        <path
+            d="M354.28,372.71h9a52.43,52.43,0,0,1,12.48,1.44A28.78,28.78,0,0,1,386,378.83a23,23,0,0,1,7,8.41,27.85,27.85,0,0,1,2.59,12.57,25.31,25.31,0,0,1-2.51,11.52,24.86,24.86,0,0,1-6.77,8.38,30.08,30.08,0,0,1-9.81,5.14,38.65,38.65,0,0,1-11.69,1.76H345.16V386"
+            transform="translate(-217.51 -348.52)"
+            style={{ fill: 'none', stroke: '#959595', strokeMiterlimit: 10, strokeWidth: '0.5px' }} />
+        <polyline
+            points="96.77 59.64 85.15 42.33 103.25 15.46 88.48 15.46 77.77 31.36 67.1 15.45 52.33 15.45 70.42 42.31 51.43 70.54 66.2 70.54 77.82 53.27 89.27 70.28"
+            style={{ fill: 'none', stroke: '#959595', strokeMiterlimit: 10, strokeWidth: '0.5px' }} />
+        <path
+            d="M264.84,364.07H252.54v32.52a12.61,12.61,0,0,1-.82,4.63,11,11,0,0,1-2.33,3.67,10.67,10.67,0,0,1-3.55,2.42,11.37,11.37,0,0,1-4.48.87,11.66,11.66,0,0,1-4.48-.87,10.57,10.57,0,0,1-3.58-2.42,11,11,0,0,1-2.33-3.67,12.61,12.61,0,0,1-.82-4.63V364h-12.4v33a24.94,24.94,0,0,0,1.49,8.82,19.21,19.21,0,0,0,4.48,7,20.48,20.48,0,0,0,7.31,4.58,32,32,0,0,0,20.43,0,20.5,20.5,0,0,0,7.37-4.63,19.24,19.24,0,0,0,4.48-7,25,25,0,0,0,1.49-8.82Z"
+            transform="translate(-217.51 -348.52)"
+            style={{ fill: 'none', stroke: '#959595', strokeMiterlimit: 10, strokeWidth: '0.5px' }} />
+        <line x1="80.62" y1="95.32" x2="146.56" y2="0.14"
+            style={{ fill: 'none', stroke: '#35b6e9', strokeMiterlimit: 10, strokeWidth: '0.5px' }} />
+    </svg>
     </main>
   );
 }
